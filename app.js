@@ -3,4 +3,4 @@ function print_text(text)
     console.log(text);
 }
 
-print_text('fugafuga');
+print_text('hogehoge');
