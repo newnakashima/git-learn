@@ -6,7 +6,7 @@ function test_print_text()
     const child = spawn('node', ['./app.js']);
     child.stdout.on('data', function (chunk) {
         const actual = String.fromCharCode.apply(null, new Uint16Array(chunk));
-        assert.strictEqual(actual, 'hogehoge\n');
+        assert.strictEqual(actual, 'fugafuga\n');
         console.log('test OK');
     });
 }
